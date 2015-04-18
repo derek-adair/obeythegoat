@@ -1,5 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+
 import unittest
 
 class NewVisitorTest(unittest.TestCase):
@@ -13,7 +14,7 @@ class NewVisitorTest(unittest.TestCase):
 
     def test_start_list_and_retrieve_it_later(self):
         # Edith navigates to the home page
-        self.browser.get('localhost:8080')
+        self.browser.get('localhost:8000')
 
         # She notices the page title and header mention to-do lists
         self.assertIn( 'To-Do', self.browser.title)
