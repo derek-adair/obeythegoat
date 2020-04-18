@@ -1,2 +1,2 @@
 # obeythegoat
-me following along with obeythetestinggoat.com 
+[Obeying the Testing Goat](https://obeythetestinggoat.com)
